@@ -5,6 +5,19 @@
 
 ---
 
+## Project Structure
+
+```
+agent-harness/
+├── README.md           # Main documentation (English)
+├── README.zh-CN.md     # Chinese translation
+└── docs/
+    ├── agent-harness-deep-analysis-report.md    # Deep technical analysis
+    ├── harness-engineer-career-analysis.md      # Career development guide
+    ├── visual-summary.md                        # Visual summary
+    └── resources.md                            # Curated resources collection
+```
+
 ## Executive Summary
 
 **Agent Harness** is one of the most influential concepts in the AI engineering field from 2025-2026, formally proposed and named by Mitchell Hashimoto (Terraform founder). It represents a significant shift from "prompt engineering" to "systems engineering."
