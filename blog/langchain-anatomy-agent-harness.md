@@ -2,6 +2,8 @@
 
 > By Vivek Trivedy | Source: LangChain Blog | Date: March 2026
 
+![Harness Architecture](./langchain-images/anatomy-01.png)
+
 ---
 
 **TLDR:** Agent = Model + Harness. Harness engineering is how we build systems around models to turn them into work engines. The model contains the intelligence and the harness makes that intelligence useful.
@@ -40,6 +42,8 @@ These are all harness level features. The structure of LLMs requires some sort o
 ---
 
 ## Working Backwards from Desired Agent Behavior to Harness Engineering
+
+![Harness Components](./langchain-images/anatomy-02.png)
 
 Harness Engineering helps humans inject useful priors to guide agent behavior. And as models have gotten more capable, harnesses have been used to surgically extend and correct models to complete previously impossible tasks.
 

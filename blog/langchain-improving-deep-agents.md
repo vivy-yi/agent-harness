@@ -1,5 +1,6 @@
 # Improving Deep Agents with Harness Engineering
 
+![Improvement Results](./langchain-images/improving-01.png)
 > Source: LangChain Blog | Date: 2026
 
 ---
@@ -25,6 +26,8 @@ We deliberately compress the optimization space and focus on three: System Promp
 We start with a default prompt and standard tools+middleware. This scores 52.8% with GPT-5.2-Codex. A solid score, just outside the Top 30 of the leaderboard today, but room to grow.
 
 ## What Actually Improved Agent Performance
+
+![Self Verification](./langchain-images/improving-05.png)
 
 ### Build & Self-Verify
 
